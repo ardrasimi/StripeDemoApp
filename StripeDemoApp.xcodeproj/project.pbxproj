@@ -3,23 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01738A862CAE9F08005ABD75 /* RowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738A852CAE9F08005ABD75 /* RowTableViewCell.swift */; };
+		01738A882CAE9F1E005ABD75 /* RowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01738A872CAE9F1E005ABD75 /* RowTableViewCell.xib */; };
+		01738A8A2CAE9F36005ABD75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738A892CAE9F36005ABD75 /* SceneDelegate.swift */; };
+		01738A8C2CAE9F68005ABD75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738A8B2CAE9F67005ABD75 /* ViewController.swift */; };
+		01738A8E2CAE9F80005ABD75 /* DiscoveryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738A8D2CAE9F80005ABD75 /* DiscoveryReaderView.swift */; };
+		01738A922CAE9FD3005ABD75 /* StripeTerminal in Frameworks */ = {isa = PBXBuildFile; productRef = 01738A912CAE9FD3005ABD75 /* StripeTerminal */; };
+		01738A952CAE9FDA005ABD75 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 01738A942CAE9FDA005ABD75 /* StripePaymentSheet */; };
+		01738A972CAE9FDE005ABD75 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 01738A962CAE9FDE005ABD75 /* Stripe */; };
+		01738A992CAE9FE4005ABD75 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 01738A982CAE9FE4005ABD75 /* StripePayments */; };
+		01738A9B2CAEA0D4005ABD75 /* NormalPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738A9A2CAEA0D4005ABD75 /* NormalPaymentVC.swift */; };
+		01738A9D2CAEA27B005ABD75 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738A9C2CAEA27B005ABD75 /* APIClient.swift */; };
 		01AF387E2CAE792800F3FC56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF387D2CAE792800F3FC56 /* AppDelegate.swift */; };
-		01AF38802CAE792800F3FC56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF387F2CAE792800F3FC56 /* SceneDelegate.swift */; };
-		01AF38822CAE792800F3FC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF38812CAE792800F3FC56 /* ViewController.swift */; };
 		01AF38852CAE792800F3FC56 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01AF38842CAE792800F3FC56 /* Base */; };
 		01AF38872CAE792B00F3FC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AF38862CAE792B00F3FC56 /* Assets.xcassets */; };
 		01AF388A2CAE792B00F3FC56 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01AF38892CAE792B00F3FC56 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01738A852CAE9F08005ABD75 /* RowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowTableViewCell.swift; sourceTree = "<group>"; };
+		01738A872CAE9F1E005ABD75 /* RowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowTableViewCell.xib; sourceTree = "<group>"; };
+		01738A892CAE9F36005ABD75 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../Downloads/SceneDelegate.swift; sourceTree = "<group>"; };
+		01738A8B2CAE9F67005ABD75 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01738A8D2CAE9F80005ABD75 /* DiscoveryReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryReaderView.swift; sourceTree = "<group>"; };
+		01738A9A2CAEA0D4005ABD75 /* NormalPaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalPaymentVC.swift; sourceTree = "<group>"; };
+		01738A9C2CAEA27B005ABD75 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = ../../../Downloads/APIClient.swift; sourceTree = "<group>"; };
 		01AF387A2CAE792800F3FC56 /* StripeDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AF387D2CAE792800F3FC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01AF387F2CAE792800F3FC56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01AF38812CAE792800F3FC56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01AF38842CAE792800F3FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01AF38862CAE792B00F3FC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AF38892CAE792B00F3FC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01738A952CAE9FDA005ABD75 /* StripePaymentSheet in Frameworks */,
+				01738A922CAE9FD3005ABD75 /* StripeTerminal in Frameworks */,
+				01738A992CAE9FE4005ABD75 /* StripePayments in Frameworks */,
+				01738A972CAE9FDE005ABD75 /* Stripe in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01738A932CAE9FDA005ABD75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		01AF38712CAE792800F3FC56 = {
 			isa = PBXGroup;
 			children = (
 				01AF387C2CAE792800F3FC56 /* StripeDemoApp */,
 				01AF387B2CAE792800F3FC56 /* Products */,
+				01738A932CAE9FDA005ABD75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +83,14 @@
 			isa = PBXGroup;
 			children = (
 				01AF387D2CAE792800F3FC56 /* AppDelegate.swift */,
-				01AF387F2CAE792800F3FC56 /* SceneDelegate.swift */,
-				01AF38812CAE792800F3FC56 /* ViewController.swift */,
+				01738A8B2CAE9F67005ABD75 /* ViewController.swift */,
+				01738A9C2CAEA27B005ABD75 /* APIClient.swift */,
 				01AF38832CAE792800F3FC56 /* Main.storyboard */,
+				01738A852CAE9F08005ABD75 /* RowTableViewCell.swift */,
+				01738A892CAE9F36005ABD75 /* SceneDelegate.swift */,
+				01738A8D2CAE9F80005ABD75 /* DiscoveryReaderView.swift */,
+				01738A9A2CAEA0D4005ABD75 /* NormalPaymentVC.swift */,
+				01738A872CAE9F1E005ABD75 /* RowTableViewCell.xib */,
 				01AF38862CAE792B00F3FC56 /* Assets.xcassets */,
 				01AF38882CAE792B00F3FC56 /* LaunchScreen.storyboard */,
 				01AF388B2CAE792B00F3FC56 /* Info.plist */,
@@ -83,6 +114,12 @@
 			dependencies = (
 			);
 			name = StripeDemoApp;
+			packageProductDependencies = (
+				01738A912CAE9FD3005ABD75 /* StripeTerminal */,
+				01738A942CAE9FDA005ABD75 /* StripePaymentSheet */,
+				01738A962CAE9FDE005ABD75 /* Stripe */,
+				01738A982CAE9FE4005ABD75 /* StripePayments */,
+			);
 			productName = StripeDemoApp;
 			productReference = 01AF387A2CAE792800F3FC56 /* StripeDemoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,10 @@
 				Base,
 			);
 			mainGroup = 01AF38712CAE792800F3FC56;
+			packageReferences = (
+				01738A8F2CAE9FAD005ABD75 /* XCLocalSwiftPackageReference "../../Downloads/stripe-ios-master" */,
+				01738A902CAE9FD3005ABD75 /* XCRemoteSwiftPackageReference "stripe-terminal-ios" */,
+			);
 			productRefGroup = 01AF387B2CAE792800F3FC56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01738A882CAE9F1E005ABD75 /* RowTableViewCell.xib in Resources */,
 				01AF38872CAE792B00F3FC56 /* Assets.xcassets in Resources */,
 				01AF388A2CAE792B00F3FC56 /* Base in Resources */,
 				01AF38852CAE792800F3FC56 /* Base in Resources */,
@@ -138,9 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AF38822CAE792800F3FC56 /* ViewController.swift in Sources */,
+				01738A9B2CAEA0D4005ABD75 /* NormalPaymentVC.swift in Sources */,
+				01738A9D2CAEA27B005ABD75 /* APIClient.swift in Sources */,
+				01738A8C2CAE9F68005ABD75 /* ViewController.swift in Sources */,
+				01738A862CAE9F08005ABD75 /* RowTableViewCell.swift in Sources */,
+				01738A8A2CAE9F36005ABD75 /* SceneDelegate.swift in Sources */,
+				01738A8E2CAE9F80005ABD75 /* DiscoveryReaderView.swift in Sources */,
 				01AF387E2CAE792800F3FC56 /* AppDelegate.swift in Sources */,
-				01AF38802CAE792800F3FC56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +340,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StripeDemoApp/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +369,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StripeDemoApp/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -361,6 +411,47 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		01738A8F2CAE9FAD005ABD75 /* XCLocalSwiftPackageReference "../../Downloads/stripe-ios-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/stripe-ios-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01738A902CAE9FD3005ABD75 /* XCRemoteSwiftPackageReference "stripe-terminal-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-terminal-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01738A912CAE9FD3005ABD75 /* StripeTerminal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01738A902CAE9FD3005ABD75 /* XCRemoteSwiftPackageReference "stripe-terminal-ios" */;
+			productName = StripeTerminal;
+		};
+		01738A942CAE9FDA005ABD75 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01738A8F2CAE9FAD005ABD75 /* XCLocalSwiftPackageReference "../../Downloads/stripe-ios-master" */;
+			productName = StripePaymentSheet;
+		};
+		01738A962CAE9FDE005ABD75 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01738A8F2CAE9FAD005ABD75 /* XCLocalSwiftPackageReference "../../Downloads/stripe-ios-master" */;
+			productName = Stripe;
+		};
+		01738A982CAE9FE4005ABD75 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01738A8F2CAE9FAD005ABD75 /* XCLocalSwiftPackageReference "../../Downloads/stripe-ios-master" */;
+			productName = StripePayments;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01AF38722CAE792800F3FC56 /* Project object */;
 }

@@ -5,8 +5,9 @@
 //  Created by Trenser01 on 03/10/24.
 //
 
-import UIKit
 
+import UIKit
+import StripeTerminal
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Terminal.setTokenProvider(APIClient.shared)
         return true
     }
 
@@ -34,3 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+let PublishableKey = "pk_test_51Q2Pyb2NkSWy1z8XwPhz78m0BayK2qfJuFE6sTD31Iyu72CPaXNThNEQyjtKG2MRuO8uAPJJlKVPkijIDZ87vFjE007n2RvosK"
+
+let UserSecret = "sk_test_51Q2Pyb2NkSWy1z8XfhWcC9Hnrr9UjR67tBfq0eDcKyowdC2IBVxvwSeenVnx95YlSmft3jeKDOIhtTh927eIPVis00Dl1aDllT"
